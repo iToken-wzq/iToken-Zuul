@@ -1,0 +1,10 @@
+#默认的启动方式 dev
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888/
+      #云端配置文件的名字
+      name: iToken-Zuul
+      label: master
+      #开发阶段的profile(测试阶段test,发布阶段：prod)
+      profile: dev
